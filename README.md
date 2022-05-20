@@ -1,3 +1,4 @@
 # YM2413-MDB
 
-initial commit
+- generated music demo
+
