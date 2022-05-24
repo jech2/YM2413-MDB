@@ -2,12 +2,12 @@
 
 This web repository contains musical examples from our paper, "YM2413-MDB : A Multi-Instrumental FM Video Game Music Dataset with Emotion Annotations".
 
-We show baseline generation results of 4 and 8 bars using emotion condition of _cheerful_ and _depressed_. Generated samples are rendered using [VST2413](http://www.keijiro.tokyo/vst2413/).
+We show baseline generation results of 4 bars using emotion condition of _cheerful_ and _depressed_. Generated samples are rendered using [VST2413](http://www.keijiro.tokyo/vst2413/).
 
-## Samples from Dataset
-** Top tag is _italicized_
+## Samples from dataset
+<!-- ** Top tag is _italicized_ -->
 
-tense cheerful speedy serious rhythmic fluttered peaceful creepy depressed calm grand cold dreamy bizarre cute touching comic frustrating boring
+<!-- tense cheerful speedy serious rhythmic fluttered peaceful creepy depressed calm grand cold dreamy bizarre cute touching comic frustrating boring -->
 
 |<center>Top Tag</center>|<center>Audio</center>|<center>Top Tag</center>|<center>Audio</center>|
 |---|:---|:---|:---|
@@ -22,17 +22,12 @@ tense cheerful speedy serious rhythmic fluttered peaceful creepy depressed calm 
 |Depressed|<audio controls><source src='./audio_dataset/06_Over.mp3'></audio>|Boring|<audio controls><source src='./audio_dataset/Kenseiden (FM) - 14 - Ending.mp3'></audio>|
 |Calm|<audio controls><source src='./audio_dataset/Space Harrier 3-D (FM) - 03 - Ending.mp3'></audio>|_Sound Effect_|<audio controls><source src='./audio_dataset/03 Ready!.mp3'></audio>
 
-## Generated samples (4 bars)
-### Cheerful
+## Generated samples
+|<center>Cheerful</center>|<center>Depressed</center>|
+|---|:---|
+|<audio controls><source src='./audio_dataset/.mp3'></audio>|<audio controls><source src='./audio_dataset/.mp3'></audio>|
+|<audio controls><source src='./audio_dataset/.mp3'></audio>|<audio controls><source src='./audio_dataset/.mp3'></audio>|
+|<audio controls><source src='./audio_dataset/.mp3'></audio>|<audio controls><source src='./audio_dataset/.mp3'></audio>|
+|<audio controls><source src='./audio_dataset/.mp3'></audio>|<audio controls><source src='./audio_dataset/.mp3'></audio>|
+|<audio controls><source src='./audio_dataset/.mp3'></audio>|<audio controls><source src='./audio_dataset/.mp3'></audio>|
 
-
-### Depressed
-
-
-## Generated samples (8 bars)
-
-### Cheerful
-
-
-
-### Depressed
