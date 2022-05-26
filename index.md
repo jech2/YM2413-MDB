@@ -2,6 +2,8 @@
 
 This web repository contains musical examples from our paper, "YM2413-MDB: A Multi-Instrumental FM Video Game Music Dataset with Emotion Annotations".
 
+![title_image](./title_img.png)
+
 We show baseline generation results of 4 bars using the emotion condition of _cheerful_ and _depressed_. Generated samples are rendered using [VST2413](http://www.keijiro.tokyo/vst2413/).
 
 ## Samples from dataset
@@ -29,9 +31,9 @@ sampled at GPT2 step 20K checkpoint, sampling temperature 0.9
 
 |<center>Cheerful</center>|<center>Depressed</center>|
 |---|:---|
-|<audio controls><source src='./audio_dataset/06_Over.mp3'></audio>|<audio controls><source src='./audio_dataset/06_Over.mp3'></audio>|
-|<audio controls><source src='./audio_dataset/06_Over.mp3'></audio>|<audio controls><source src='./audio_dataset/06_Over.mp3'></audio>|
-|<audio controls><source src='./audio_dataset/06_Over.mp3'></audio>|<audio controls><source src='./audio_dataset/06_Over.mp3'></audio>|
-|<audio controls><source src='./audio_dataset/06_Over.mp3'></audio>|<audio controls><source src='./audio_dataset/06_Over.mp3'></audio>|
-|<audio controls><source src='./audio_dataset/06_Over.mp3'></audio>|<audio controls><source src='./audio_dataset/06_Over.mp3'></audio>|
+|<center><audio controls><source src='./audio_dataset/06_Over.mp3'></audio></center>|<center><audio controls><source src='./audio_dataset/06_Over.mp3'></audio></center>|
+|<center><audio controls><source src='./audio_dataset/06_Over.mp3'></audio></center>|<center><audio controls><source src='./audio_dataset/06_Over.mp3'></audio></center>|
+|<center><audio controls><source src='./audio_dataset/06_Over.mp3'></audio></center>|<center><audio controls><source src='./audio_dataset/06_Over.mp3'></audio></center>|
+|<center><audio controls><source src='./audio_dataset/06_Over.mp3'></audio></center>|<center><audio controls><source src='./audio_dataset/06_Over.mp3'></audio></center>|
+|<center><audio controls><source src='./audio_dataset/06_Over.mp3'></audio></center>|<center><audio controls><source src='./audio_dataset/06_Over.mp3'></audio></center>|
 
