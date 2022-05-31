@@ -27,11 +27,10 @@ Our dataset is **multi-labeled with 19 emotion tags**: tense, cheerful, speedy, 
 |**_Calm_** <br /> <font size="2">peaceful</font>|./audio_dataset/calm.mp3<audio controls><source src='./audio_dataset/calm.mp3'></audio>||
 
 ## Generated samples
-samples from model that was trained with YM2413-MDB songs which has cheerful or depressed tag (not top tag!)
+samples from model that was trained with YM2413-MDB songs which has cheerful or depressed tag (not top tag!): sampled at GPT2 step 20K checkpoint, sampling temperature 0.9
 
-sampled at GPT2 step 20K checkpoint, sampling temperature 0.9
+** Currently, Our Ableton DAW trial period, for VST rendering, has expired and generated results rendered as Fluidsynth are uploaded. We will solve this until noon on June 1st (AoE) and re-upload it. Sorry for inconvenience again!
 
-** Currently, Our Ableton DAW trial period, for VST rendering, has expired and generated results rendered as Fluidsynth are uploaded. We will solve noon on June 1st (AoE) and upload it again. Sorry.
 ** corresponding MIDI files are also available in audio_generation folder!
 
 |<center>Cheerful</center>|<center>Depressed</center>|
