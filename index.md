@@ -29,8 +29,6 @@ Our dataset is **multi-labeled with 19 emotion tags**: tense, cheerful, speedy, 
 ## Generated samples
 samples from model that was trained with YM2413-MDB songs which has cheerful or depressed tag (not top tag!): sampled at GPT2 step 20K checkpoint, sampling temperature 0.9
 
-** Currently, Our Ableton DAW trial period, for VST rendering, has expired and generated results rendered as Fluidsynth are uploaded. We will solve this until noon on June 1st (AoE) and re-upload it. Sorry for inconvenience again!
-
 ** corresponding MIDI files are also available in audio_generation folder!
 
 |<center>Cheerful</center>|<center>Depressed</center>|
