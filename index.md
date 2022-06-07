@@ -1,9 +1,10 @@
-# YM2413-MDB
+# Announcement
 <font size="6">Click here >> </font> [<font size="6">[RENDERED VIEW OF THIS PAGE]</font>](https://frog-9.github.io/YM2413-MDB/)
 
-** For reviewers, since this repo doesn't support the audio playback in markdown, we recommend you to visit above link or download the zip file of all audio: **audio_dataset.zip** and **audio_generation.zip**.
+For reviewers, since this repo doesn't support the audio playback in markdown, we recommend you to visit above link or download the zip file of all audio: **audio_dataset.zip** and **audio_generation.zip**.
 
-
+---
+# YM2413-MDB
 This web repository contains musical examples from our paper, "YM2413-MDB: A Multi-Instrumental FM Video Game Music Dataset with Emotion Annotations".
 
 ![title_image](./title_img.png)
