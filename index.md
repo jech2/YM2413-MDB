@@ -1,5 +1,5 @@
 # YM2413-MDB
-<font size="15">Click here >> </font> [<font size="15"><span style="color:red">[RENDERED VIEW OF THIS PAGE]</span></font>](https://frog-9.github.io/YM2413-MDB/)
+<font size="6">Click here >> </font> [<font size="6">[RENDERED VIEW OF THIS PAGE]</font>](https://frog-9.github.io/YM2413-MDB/)
 
 ** For reviewers, since this repo doesn't support the audio playback in markdown, we recommend you to visit above link or download the zip file of all audio: **audio_dataset.zip** and **audio_generation.zip**.
 
