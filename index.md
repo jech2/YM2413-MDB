@@ -1,15 +1,3 @@
-# Announcement
-<font size="6">Click here >> </font> [<font size="6">[RENDERED VIEW OF THIS PAGE]</font>](https://frog-9.github.io/YM2413-MDB/)
-
-
-For reviewers, since this repo doesn't support the audio playback in markdown, we recommend you to visit above link or download the zip file of all audio: **audio_dataset.zip** and **audio_generation.zip**.
-
-<br /> 
-
----
-
-<br /> 
-
 # YM2413-MDB
 This web repository contains musical examples from our paper, "YM2413-MDB: A Multi-Instrumental FM Video Game Music Dataset with Emotion Annotations".
 
@@ -38,8 +26,6 @@ Our dataset is **multi-labeled with 19 emotion tags**: tense, cheerful, speedy, 
 
 ## Generated samples
 samples from model that was trained with YM2413-MDB songs which has cheerful or depressed tag (not top tag!): sampled at GPT2 step 20K checkpoint, sampling temperature 0.9
-
-** corresponding MIDI files are also available in audio_generation folder!
 
 |<center>Cheerful</center>|<center>Depressed</center>|
 |---|:---|
