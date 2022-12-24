@@ -1,6 +1,9 @@
 # YM2413-MDB
 YM2413-MDB is an 80s FM video game music dataset with multi-label emotion annotations. It includes 669 audio and MIDI files of music from Sega and MSX PC games in the 80s using YM2413, a programmable sound generator based on FM. The collected game music is arranged with a subset of 15 monophonic instruments and one drum instrument.
 
+## Announcement
+- Version 1.0.1 is available: Fix ticks per beat value adjust to tempo where tempo values are not 150. Also, madmom downbeat files are updated from DBNBeatTracker(ISMIR, 2015) to TCNBeatTracker(Newer one EUSIPCO, 2019).
+
 ## Dataset
 - includes:
     - uploaded vgm, midi, wav files ( 669 files excluding no note event files )
