@@ -9,23 +9,54 @@ from debugging_utils import generate_dir
 from similarity_utils import *
 from midi_utils import program_instr_dict
 
-def adjust_beat_tracked_data(downbeat_fp, midi_obj):
+def get_downbeats(downbeat_fp):
     with open(downbeat_fp, 'r') as f:
         lines = f.readlines()
     downbeat = []
     for line in lines:
         downbeat.append(float(line.strip()))
         
+    return downbeat
+
+
+def adjust_beat_tracked_data(downbeat_fp, midi_obj):
+    downbeat = get_downbeats(downbeat_fp)
+    print(downbeat_fp)
+        
     tps = 735 * 60
-    prev = 0
-    for db in downbeat:
-        if db == 0:
-            bpm = 150
-        else:
-            bpm = 1/(db-prev) * 60
+    
+    changed_spb = []
+    
+    prev = downbeat[0]
+    bpms = []
+    for db in downbeat[1:]:
+        bpm = int(1/(db-prev) * 60)
+        changed_spb.append(db-prev)
+
         tick = int(db * tps)
         midi_obj.tempo_changes.append(TempoChange(bpm, tick))
-        prev = db  
+        prev = db
+        bpms.append(bpm)
+    
+    # for first downbeat
+    if len(bpms) != 0:
+        bpm = max(bpms, key=bpms.count)
+    else:
+        bpm = 150
+    tick = int(downbeat[0] * tps)
+    midi_obj.tempo_changes.append(TempoChange(bpm, tick)) 
+    
+    midi_obj.tempo_changes.sort(key= lambda x:(x.time, x.tempo))
+
+    if len(changed_spb) != 0:
+        new_tpb = int(tps * np.median(np.array(changed_spb)))
+        if new_tpb > 32767:
+            new_tpb /= 2
+        new_tpb = int(round(new_tpb, -1))
+        if new_tpb < -32768:
+            print(downbeat_fp)
+        midi_obj.ticks_per_beat = new_tpb
+        print(new_tpb)
 
     return midi_obj
     
